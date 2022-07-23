@@ -10,11 +10,11 @@ namespace SandboxProject
       int[] birthYears;
 
       string [] family = {
-        "Derek",
-        "Alex", 
-        "Bentley",
-        "Liam",
-        "Oliver"
+        "Erica",
+        "Larry", 
+        "Eric",
+        "Adam",
+        "Jake"
       };
 
       foreach (string name in family)
@@ -33,10 +33,10 @@ namespace SandboxProject
       int familyLength = family.Length;
       Console.WriteLine($"There are {familyLength} members of our family!");
 
-      Console.WriteLine($"Bentley is {age[2]} years old!");
+      Console.WriteLine($"Eric is {age[2]} years old!");
 
       int onList = Array.IndexOf(family, "Liam");
-      Console.WriteLine($"Liam is listed {onList + 1}th in this array."); //Be nice to find a way to print 4 instead of zero-index.
+      Console.WriteLine($"Adam is listed {onList + 1}th in this array."); //Be nice to find a way to print 4 instead of zero-index.
 
 
       Array.Sort(family);
